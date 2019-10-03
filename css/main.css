@@ -13,6 +13,7 @@ h1 {
 }
 
 nav {
+  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
   font-weight: bold;
 }
@@ -37,12 +38,47 @@ figcaption {
   text-align: center;
 }
 
-p:nth-child(2){
+p:nth-child(2) {
   font-weight: bold;
   font-size: 1.125rem;
 }
 
-blockquote p{
+blockquote p {
   font-size: 1.5rem;
   font-style: italic;
+}
+
+blockquote cite {
+  font-size: 0.8rem;
+}
+
+h2 {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+aside p{
+  font-style: italic;
+}
+
+aside dt {
+  font-weight: bold;
+}
+
+ol {
+  list-style-type: lower-greek;
+}
+ul {
+  list-style-type: circle;
+}
+
+footer a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
